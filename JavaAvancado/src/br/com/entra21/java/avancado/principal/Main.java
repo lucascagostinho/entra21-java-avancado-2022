@@ -1,8 +1,10 @@
 package br.com.entra21.java.avancado.principal;
 
+import java.util.Collection;
 import java.util.Scanner;
 
 import br.com.entra21.java.avancado.principal.aulas01.enums.PersonagemJogo;
+import br.com.entra21.java.avancado.principal.aulas02.collections.list.Collections;
 
 public class Main {
 
@@ -33,6 +35,11 @@ public class Main {
 				aprenderEnum();
 				break;
 
+			case 3:
+				Collections.aprender(); // chamar classe dentro do main, classe deve ser static
+				// dessa forma podemos fazer um sub menu e nnão precisa declarar no main
+				break;
+
 			default:
 				System.out.println("Opção inválida");
 				break;
@@ -48,6 +55,7 @@ public class Main {
 		menu += "0 - Sair \n";
 		menu += "1 - Wrapper \n";
 		menu += "2 - ENUM \n";
+		menu += "3 - Collections - List \n";
 		menu += "Escolha uma das opções";
 
 		return menu;
@@ -83,21 +91,21 @@ public class Main {
 		}
 
 		System.out.println("\n Gosto desse tipo de personagem: " + PersonagemJogo.ANAO);
-		System.out.println("\n Geralmente a classe " + PersonagemJogo.ANAO + " tem HP = " + PersonagemJogo.ANAO.getVIDA());
+		System.out.println(
+				"\n Geralmente a classe " + PersonagemJogo.ANAO + " tem HP = " + PersonagemJogo.ANAO.getVIDA());
 		System.out.println("\n Veja a caracterisca mais comum dele " + PersonagemJogo.ANAO.getDESCRICAO());
 		System.out.println("O mago está no indice do Enum " + PersonagemJogo.MAGO.ordinal());
 		System.out.println("\n Veja a descrição completa do " + PersonagemJogo.MAGO + " sua vida é "
 				+ PersonagemJogo.MAGO.getVIDA() + " e sua habilidade principal " + PersonagemJogo.MAGO.getDESCRICAO());
 		System.out.println(PersonagemJogo.BARBARO.getDetails());
-		
+
 		for (int personagem = 0; personagem < PersonagemJogo.values().length; personagem++) {
-			System.out.println("Contadoe = " + personagem + "posicção do Enmum = " + PersonagemJogo.values()[personagem].ordinal());
+			System.out.println("Contadoe = " + personagem + "posicção do Enmum = "
+					+ PersonagemJogo.values()[personagem].ordinal());
 			System.out.println("O personagem " + PersonagemJogo.values()[personagem].name());
 			System.out.println(PersonagemJogo.values()[personagem].getVIDA());
 			System.out.println(PersonagemJogo.values()[personagem].getDESCRICAO());
 		}
-		
-		
-	}
 
+	}
 }
