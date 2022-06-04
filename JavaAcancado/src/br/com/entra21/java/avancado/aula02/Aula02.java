@@ -1,4 +1,4 @@
-package br.com.entra21.java.avancado.aula02.collections.list;
+package br.com.entra21.java.avancado.aula02;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,9 +6,9 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-import br.com.entra21.java.avancado.aula03.assuntos.Lembrete;
+import br.com.entra21.java.avancado.aula03.anotacoes.Lembrete;
 
-public class AprenderList {
+public class Aula02 {
 
 	static Scanner entrada = new Scanner(System.in);
 
@@ -123,6 +123,7 @@ public class AprenderList {
 		for (String interesse : interesses) {
 			System.out.println("\t" + interesse);
 		}
+		
 
 	}
 

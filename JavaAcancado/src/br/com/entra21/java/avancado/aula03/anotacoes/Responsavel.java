@@ -1,4 +1,4 @@
-package br.com.entra21.java.avancado.aula03.assuntos;
+package br.com.entra21.java.avancado.aula03.anotacoes;
 
 /**
 * Um TODO voltado para grupos

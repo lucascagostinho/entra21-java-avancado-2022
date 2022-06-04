@@ -1,4 +1,4 @@
-package br.com.entra21.java.avancado.aula03.assuntos;
+package br.com.entra21.java.avancado.aula03.anotacoes;
 
 /**
  * Tipo anotação para indicar que uma coisa não pode ser esquecida
