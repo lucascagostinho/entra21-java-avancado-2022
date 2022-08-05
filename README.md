@@ -1,22 +1,27 @@
-# entra21 Java avançado
-Repositório com as práticas realizadas em aula  
+# Entra21 - Full stack Java Course ☕
 
-> Conteúdo prático realizado em sala durante o projeto Entra21
-> Em aditivo oportunidades de aprendizado em:
-> - Versionamento
-> - Linguagem markdown
-> - Documentação
-![Gif Entra21](/entra21.gif)
+<center>
 
-## Aula Ministradas
+## 📈 Advanced Java  📈
 
-<a href="#"><img align="center" src="./giphy.gif" width="400 " height="300" /></a>
+<br>
 
-| AULA | ASSUNTO |
-|------|---------|
-|Aula 01 - 01|Classes Wrappers
-|Aula 01 - 02|ENUM  
-|Aula 02 - 01|Collections - List - ArrayList  
-|Aula 02 - 02|Collections - List - LinkedList  
-|Aula 03 - 01|Trabalhando com Datas
-|Aula 03 - 01|Usando e criando anotações customizadas
+![Full stack Java course](/JavaAvancado/gif_img/Java%20Avan%C3%A7ado.png)
+
+</center>
+
+## Practical Content ✍🏻
+
+
+- [x] Wrapper;
+- [x] ENUM;
+- [x] Collections List (ArrayList);
+- [x] Collections List (LinkedList);
+- [x] Annotations;
+- [x] Date;
+- [x] Collections Set (HashSet);
+- [x] Collections Map (HashMap);
+- [x] Generics;
+- [x] Errors and Exceptions
+- [x] Lambda Functions;
+ 
